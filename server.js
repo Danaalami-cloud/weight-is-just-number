@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const PORT = process.nextTick.PORT || 3000;
 
 const db = require("./models");
-const { resolveSoa } = require("node:dns");
+// const { resolveSoa } = require("node:dns");
 const app = express();
 
 app.use(logger("dev"));
@@ -17,7 +17,7 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", { useNewUrlParser: true});
 
-app.use(require("./routes/api"));
+app.use(require("./routes/api.js"));
 
 app.listen(PORT, () => {
     console.log(`App runing on port ${PORT}!`);
