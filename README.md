@@ -60,7 +60,7 @@ Running seeders/seed.js is optional to have a prepopulated database.
 <img width="1266" alt="Screenshot 2021-07-04 at 19 35 09" src="https://user-images.githubusercontent.com/76731133/124392565-072b9500-dcff-11eb-81a2-58840028f0a4.png">
 
 ### Deployed App
-
+https://weightispretty.herokuapp.com/
 
 
 
